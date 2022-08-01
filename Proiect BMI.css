@@ -1,0 +1,13 @@
+.btn {color: red;
+      padding: 10px;}
+
+.labels {padding: 25px;
+         color:orange;
+         text-decoration:underline;
+         text-decoration-style: dotted;
+         font-style: italic;}
+
+.weight {padding-bottom: 25px;}
+
+.rezultatBMI {text-align: center;
+              color: rgb(255, 0, 225);}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Proiect BMI</title>
+
+    <link rel="stylesheet" type="text/css" href="/Users/a./Desktop/Click School/Proiect-BMI/Proiect BMI.css"/>
+
+    <style>
+
+        h3 {text-align: center;}
+        h3.name {color:deeppink;}
+        h3.year {color: yellowgreen;}
+        h3.height {color: blueviolet;}
+        h3.weight {color: blue;}
+
+    </style>
+
+</head>
+
+<body>
+
+    <p id="test"></p>
+    <p class="testclasa"></p>
+
+    <h1>Body Mass Index Calculator</h1>
+
+    <style>
+        h1 {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-top: 25px;
+        }
+    </style>
+
+    <style> h1 {text-align: center;} </style>
+
+    <form class="form">
+
+        <h3 class="labels"><label>Introdu următoarele:</label></h3>
+
+        <h3 class="name"><label>Numele</label>
+        <input class="numele" type="text"><br></h3>
+
+        <!-- <h3 class="year"><label>Anul nașterii</label>
+        <input class="anulNasterii" type="number"><br></h3> -->
+
+        <h3 class="height"><label>Înălțimea (cm)</label>
+        <input class="inaltimea" type="number"><br></h3>
+
+        <h3 class="weight"><label>Greutatea (kg)</label>
+        <input class="greutatea" type="number"><br></h3>
+
+
+    </form>
+
+<div class="container">
+    <form>
+
+        <button type="button" class="btn" onclick="document.getElementById('test').style.color='red'">Calculează BMI</button>
+
+    </form>
+</div>
+
+    <style>
+
+        .container {
+        display: flex;  
+        justify-content: center;  
+        align-items: center;}  
+
+    </style>
+
+<p class="rezultatBMI"></p>
+
+<script src="/Users/a./Desktop/Click School/Proiect-BMI/Proiect BMI.js"></script>
+
+</body>
+</html>

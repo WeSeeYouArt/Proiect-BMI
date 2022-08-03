@@ -1,21 +1,85 @@
+.title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: rgb(170, 18, 184);
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+  border-radius: 10px;
+}
+
+.form-group {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn {
+  top: 240px;
+  position: fixed;
+  left: 43%;
+  padding: 10px;
+  transition-duration: 0.4s;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: rgb(170, 18, 184);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 13px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 10px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #0026ff;
+  --bs-btn-border-color: #0026ff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0026ff;
+  --bs-btn-hover-border-color: #0026ff;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0026ff;
+  --bs-btn-active-border-color: #0026ff;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0026ff;
+  --bs-btn-disabled-border-color: #0026ff;
+}
+
 .background {
-      background-color: bisque;
-  }
+  background-image: url("background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
 
-.btn {color: red;
-      padding: 10px;
-  }
-
-.labels {padding: 25px;
-         color:orange;
-         text-decoration:underline;
-         text-decoration-style: dotted;
-         font-style: italic;
-  }
-
-.weight {padding-bottom: 25px;
-  }
-
-.display{text-align: center;
-         color: rgb(255, 0, 225);
-  }
+.row {
+  padding-block: 25px;
+}
